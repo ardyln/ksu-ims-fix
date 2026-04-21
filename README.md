@@ -1,3 +1,5 @@
+AI generated explanation below:
+
 # Xiaomi IMS Native Injection Fix (QPR2/3)
 
 A surgical KernelSU module to restore VoLTE/VoWiFi on Xiaomi devices running custom Android 16 ROMs where the `TelephonyBaseUtilsStub` framework is missing.
