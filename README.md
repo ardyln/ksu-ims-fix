@@ -1,3 +1,5 @@
+Really simple KernelSU module to serve the missing TelephonyBaseUtilsStub class systemlessly, so that phone calls can be received and not dropped by the modem from 4G&5G connections. Generated with assistance from Gemini by iterating over the diagonistic files & system logs. I'm not an android developer so this is a very janky AI generated fix that hopefully works. The generator script asks for the ims.apk from the (hardcoded) location, you can extract it from your ROM payload and change the corresponding location. Other dependencies are installed by the script. The diagonistic script is meant to run in a root shell from the phone. Let me know if it doesn't work for you.
+
 AI generated explanation below:
 
 # Xiaomi IMS Native Injection Fix (QPR2/3)
