@@ -22,4 +22,7 @@ This module uses a multi-stage bypass strategy:
 4. **Bind Mounting:** The patched APK is forcefully mapped over the system original during the `post-fs-data` boot stage.
 
 ## License
-Licensed under the **GNU General Public License v3.0**. See the `LICENSE` file for details.
+
+Scripts & Logic: All scripts (post-fs-data.sh, service.sh, sepolicy.rule) and the forged Smali stub are licensed under GPLv3.
+
+Binaries: The pre-built .zip in the Releases tab contains a modified version of the Qualcomm/Xiaomi ims.apk. This binary is the proprietary property of its respective owners. This repository does not claim any ownership over these binaries; they are provided for interoperability purposes only.
